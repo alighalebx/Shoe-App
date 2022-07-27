@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".ListBlocks">
+
+    <!--    LinearLayout becouse its easy to constrain in vertical direction under each other -->
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="70dp"
+android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ShoeName" />
+    <TextView
+        android:id="@+id/shoe_name"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ShoeName" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Company" />
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/Company" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ShoeSize" />
+    <TextView
+        android:id="@+id/shoe_size"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/ShoeSize" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:text="@string/description" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description" />
+</LinearLayout>
+</LinearLayout>
+
+</layout>

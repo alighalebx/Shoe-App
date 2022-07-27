@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                  
+                                                       
+                                       
+
+<!--    constrainlayout becouse its easy to constrain from all direction -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" android:tag="layout/fragment_instruction_screen_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" tools:context=".InstructionScreen">
+    <View
+        android:id="@+id/backgoundView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="@dimen/alpha_02"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/instruction_textView1"
+            style="@style/titleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instruction"
+            android:textColor="@color/colorOrange"
+            app:layout_constraintBottom_toBottomOf="@+id/backgoundView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.168" />
+
+        <TextView
+            android:id="@+id/instruction_textView2"
+            style="@style/titleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="164dp"
+            android:text="@string/instruction2"
+            android:textColor="@color/colorOrange"
+            app:layout_constraintBottom_toTopOf="@+id/instruction_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/instruction_textView1"
+            app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/instruction_button"
+        style="@style/buttonApp"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="276dp"
+        android:text="@string/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/instruction_textView1"
+        app:layout_constraintStart_toStartOf="@+id/instruction_textView1"
+        app:layout_constraintTop_toBottomOf="@+id/instruction_textView1"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+         

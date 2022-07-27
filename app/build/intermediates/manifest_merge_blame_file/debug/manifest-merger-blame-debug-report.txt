@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.udacity.shoestore"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:6:5-20:19
+12        android:allowBackup="true"
+12-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\SIGMA\.gradle\caches\transforms-3\216e4b8d8e99a7b3a2160cfbafdd2a7c\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme.NoActionBar" >
+20-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:12:9-52
+21        <activity android:name="com.udacity.shoestore.MainActivity" >
+21-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:14:9-19:20
+21-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:14:19-47
+22            <intent-filter>
+22-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:15:13-18:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:16:17-69
+23-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:17:17-77
+25-->E:\Test\AndroidApps\project\Shoe App\starter\app\src\main\AndroidManifest.xml:17:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <uses-library
+29-->[androidx.window:window:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\b16348d0753fd687b11fac1731c1598b\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+30            android:name="androidx.window.extensions"
+30-->[androidx.window:window:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\b16348d0753fd687b11fac1731c1598b\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+31            android:required="false" />
+31-->[androidx.window:window:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\b16348d0753fd687b11fac1731c1598b\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+32        <uses-library
+32-->[androidx.window:window:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\b16348d0753fd687b11fac1731c1598b\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+33            android:name="androidx.window.sidecar"
+33-->[androidx.window:window:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\b16348d0753fd687b11fac1731c1598b\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+34            android:required="false" />
+34-->[androidx.window:window:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\b16348d0753fd687b11fac1731c1598b\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+35
+36        <provider
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\9dc4d7cca02828c1d89cdaf4a4465801\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+37            android:name="androidx.startup.InitializationProvider"
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\9dc4d7cca02828c1d89cdaf4a4465801\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+38            android:authorities="com.udacity.shoestore.androidx-startup"
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\9dc4d7cca02828c1d89cdaf4a4465801\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+39            android:exported="false" >
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\9dc4d7cca02828c1d89cdaf4a4465801\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+40            <meta-data
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\9dc4d7cca02828c1d89cdaf4a4465801\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+41                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\9dc4d7cca02828c1d89cdaf4a4465801\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+42                android:value="androidx.startup" />
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\SIGMA\.gradle\caches\transforms-3\9dc4d7cca02828c1d89cdaf4a4465801\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+43            <meta-data
+43-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\SIGMA\.gradle\caches\transforms-3\b552f160853170b08f778b4d14cbf499\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\SIGMA\.gradle\caches\transforms-3\b552f160853170b08f778b4d14cbf499\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+45                android:value="androidx.startup" />
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\SIGMA\.gradle\caches\transforms-3\b552f160853170b08f778b4d14cbf499\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+46        </provider>
+47    </application>
+48
+49</manifest>
